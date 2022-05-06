@@ -1,0 +1,288 @@
+* {padding: 0px; margin: 0px; font-family: "Open Sans";}
+
+
+.main {width: 100%;}
+	.header {width: 100%;background:url("images/header_menu.png")no-repeat center top;}
+		.header_fix {width: 1140px; height: 186px;  margin: 0px auto; padding: 0px 15px; }
+			.header_menu_top1 {height: 45px;  box-sizing: border-box ;}
+				.header_menu_block1 {float: left;}
+					.header_menu_block1 ul {overflow: hidden;}
+					.header_menu_block1 li {float: left;padding-left: 18px;list-style-type: none;}
+					.header_menu_block1 li:nth-child(1) {float: left;padding-left: 0px;}
+					.header_menu_block1 li:nth-child(2) {float: left;padding-left: 22px;}
+					.header_menu_block1 a {font-size: 14px; text-decoration: none; color:#fff; line-height: 45px;transition: 0.3s;}
+					.header_menu_block1 a:hover {color: #cb850c;}
+			.header_menu_top2 {width: 567px; height: 45px;  margin-left: 572px; position: absolute; box-sizing: border-box; }.header_menu_block2 {float: left;}
+					.header_menu_block2 ul {overflow: hidden;} 	
+					.header_menu_block2 li {float: left;list-style-type: none;}
+						.header_contact {padding-left: 20px; background: url("images/header_contact.png") no-repeat left top 15px; line-height:45px ; font-size: 14px; width: 141px; height: 45px; box-sizing: border-box; color: #fff; font-weight: 700;} 
+						.header_contact a{line-height:45px ; font-size: 14px; color: #fff; font-weight: 700; text-decoration: none;} 
+						.header_inst {background: url("images/header_inst.png") no-repeat left center;line-height: 45px; font-size: 14px; padding-left: 29px; width: 133px; height: 45px; margin-left: 41px; color: #fff; transition: 0.3s;} 
+						.header_inst:hover {color:  #cb850c;}
+						.consul {display: ; width: 186px; height: 25px; background: url("images/header_button.png") no-repeat center/contain ;  font-size: 14px; color: #fff;  margin-left: 49px; cursor: pointer; line-height: 25px;  margin-top: 9px; border: none; padding: 0px 9px; box-sizing: border-box; transition: 0.3s; position: absolute; text-decoration: none;}
+						.consul:hover {color: #cb850c;}
+			.header_menu_bottom {width: 1140px; height: 141px; overflow: hidden;}			
+			.header_menu_bottom ul {list-style-type: none;}
+			.header_menu_bottom li {float: left; color: #2b2b2b;}
+			.header_menu_bottom a { color: #2b2b2b; transition: 0.3s;}
+			.header_menu_bottom a:hover { color: #cb850c;}
+			.header_menu_bottom li {width: 139px; height: 100px;margin-top: 19px;  font-size: 13px; text-align: center; padding-top: 71px;margin-right: 23px; }
+
+	
+	.menu {width: 100%; }
+		.menu_tittle {width: 100%; height: 612px; }
+			.menu_tittle_fix {width: 1140px; height: 612px;  margin: 0px auto;}
+				.menu_tittle_textlogo {width: 569px; height: 560px;  margin-left: 568px; position: absolute	;}
+					.menu_tittle_logo { width: 196px; height: 279px; margin-left: 173px; margin-top: 47px;}
+					.menu_tittle_tittle { width: 569px; height: 124px; color: #fff;  font-size: 36px; text-align: center; padding-top: 50px; box-sizing: border-box; line-height: 48px; padding-top: 28px;}
+					.menu_tittle_tittle span {color: #cb850c; font-weight: 700;}
+					.menu_tittle_text { width: 569px; height: 110px; text-align: center; line-height: 48px; color: #fff; font-size: 24px; padding-top: 14px; box-sizing: border-box;}
+					.menu_tittle_text span {color: #cb850c;}
+		.vympel_tsyfry {width: 100%; height: 421; background: url("images/vympel_tsyfry_fon.png") no-repeat center top 144px; color: #fff;}	
+			.vympel_tsyfry_fix {width: 1140px; height: 421px;  margin: 0px auto;}
+				.vympel_tsyfry_tittle {height: 93px; width: 360px; background: url("images/vympel_tsyfry_tittle.png") no-repeat bottom; margin: 0px auto; text-align: center;  box-sizing: border-box; font-size: 36px;  color: #2b2b2b; padding-top: 36px;}	
+				.vympel_tsyfry_list {height: 283px; width: 1140px;  margin-top: 106px;}
+				.vympel_tsyfry_list ul {list-style-type: none;}	
+				.vympel_tsyfry_list li {float: left;}
+				.vympel_tsyfry_list span {color: #cb850c; font-size: 36px; }
+				.vympel_tsyfry_list li {height: 177px; width: 177px; text-align: center; color: #333333; font-size: 13px; padding-top: 25px; box-sizing: border-box;margin-right: 51px;}
+			.menu_about_fix {height: 775px; width: 1140px;  margin: 0px auto; overflow: hidden;position: relative;}
+				.menu_about_block {height: 762px; width: 549px;  float: left; position: absolute; z-index: 1;}
+					.menu_about_tittle {height: 133px; width: 357px; background: url("images/menu_about_tittle.png") no-repeat center bottom; color: #2b2b2b; font-size: 36px; padding-left: 15px; box-sizing: border-box; padding-top: 70px;}
+					.menu_about_text {height: 629px; width: 549px; font-size: 14px; line-height: 20px;  text-decoration: underline; padding-top: 27px; box-sizing: border-box; transition: 0.3s;}
+					.menu_about_text span {color: #cb850c;}
+					.menu_about_text a {color: #cb850c;}
+					.menu_about_text a:hover {color: #7f7f7f;}
+				.menu_news_block {height: 774px; width: 525px; background: url("images/menu_news_block.png") no-repeat center top 100px; float: right; margin-left: 66px;   box-sizing: border-box;  padding-top: 108px; position: relative; z-index: 1; padding-left: 21px;}	
+					
+
+				.news_tittle {height: 111px; width: 140px; color: #2b2b2b;position: absolute; z-index: 2; margin-bottom: 157px; margin-left: 990px;  float: left; font-size: 36px; padding-top: 72px;box-sizing: border-box;}
+				.all_news {border: none; display: block; position: absolute; z-index: 2; margin-left: 786px; margin-top: 743px; width: 186px; height: 29px; background: url("images/menu_news_news_button.png") no-repeat center bottom; text-align: center; cursor: pointer; transition: 0.3s;  }
+				.all_news a {color: #cb850c; font-size: 16px; color: #000; text-decoration: none;}
+				.all_news a:hover {color: #cb850c;}
+		.nam_doveryayut {width: 100%; height: 373px; background: url("images/nam_doveryayut_fon.png")no-repeat bottom;}		
+			.nam_doveryayut_fix {width: 1140px; height: 373px;  margin: 0px auto;}		
+				.nam_doveryayut_tittle {width: 250px; height: 199px; background: url("images/nam_doveryayut_tittle.png") no-repeat bottom; margin: 0px auto; text-align: center; font-size: 35px; color: #2b2b2b; padding-top: 142px; box-sizing: border-box;}		
+				.nam_doveryayut_partners {height: 165px; width: 1140px;  margin-top: 9px;}
+					.nam_doveryayut_left {width: 41px; height: 41px; background: url("images/nam_doveryayut_left.png") no-repeat center; margin-top: 62px; position: absolute;}
+				.nam_doveryayut_partners a {width: 296px; height: 75px;  margin-top: 46xpx; margin-left: 55px; float: left;}
+				.nam_doveryayut_right {width: 41px; height: 41px; background: url("images/nam_doveryayut_right.png") no-repeat center; position: absolute; margin-left:1059px; margin-top: 62px;}
+	.footer {width: 100%; background: grey;}
+		.footer_tittle {width: 100%; height: 93px; background: #2b2b2b;}
+			.footer_tittle_fix {width: 1140px; height: 93px;  margin: 0px auto;}
+				.footer_tittle_answers {background: url("images/footer_tittle.png") no-repeat left center; height: 66px; width: 383px; margin-left: 58px; margin-top: 13px; position: absolute; padding-left: 90px; box-sizing: border-box; font-size: 14px; color: #fff; line-height: 30px; padding-top: 5px;}
+				.footer_tittle_answers span {font-size: 18px;}
+				.footer_tittle_form {width: 293px; height: 93px; margin-left:536px; position: absolute; position: relative; text-align: 10px;}	
+				.footer_tittle_form input[type="text"] { width: 166px; height: 36px; border-top: 3px solid #ababab; border-left: 2px solid #ababab; box-sizing: border-box; position: absolute; margin-top: 29px;color: #a4a4a4; text-indent: 10px;font-size: 14px; }					
+				.footer_tittle_form input[type="tel"] {margin-left: 196px; width: 166px; height: 36px; border-top: 3px solid #ababab; border-left: 2px solid #ababab; box-sizing: border-box;  position: absolute; margin-top: 29px; color: #a4a4a4;text-indent: 10px;font-size: 14px;}					
+				.footer_tittle_form input[type="submit"] {margin-left: 800px; background: url("images/footer_tittle_button.png") no-repeat left center; width: 126px; height: 37px; border: none;  transition: 0.3s; cursor: pointer;position: absolute;margin-left: 387px; margin-top: 28px; font-size: 14px; color: #fff;}	
+				.footer_tittle_form input:nth-child(3):hover {color: #cb850c;}	
+	.footer_contacts {width: 100%; height: 621px;}
+		.footer_contacts_fix {width: 1140px; height: 621px; margin: 0px auto;}
+			.footer_contacts_information {height: 517px; width: 336px; background: url("images/footer_contacts_information.png") no-repeat center; margin-top: 52px; margin-left: 105px; position: absolute;}		
+				.footer_contacts_tittle {height: 70px; width: 204px; padding-left: 7px; box-sizing: border-box; margin-left: 71px; position: absolute; line-height: 72px; font-size: 35px; color: #fff;}		
+				.footer_contacts_numbers {height: 28px; width: 256px;position: relative; top: 91px; margin-left: 32px; padding-left: 30px; 	font-size: 14px; line-height: 24px;color: #fff;}
+				.footer_contacts_adress {height: 124px; width: 261px; position: absolute; margin-left: 24px; padding-left: 37px; box-sizing: border-box;font-size: 14px; line-height: 24px;color: #fff;padding-top: 13px; top: 182px;}
+				.footer_contacts_timing {width: 261px; height: 149px;top: 318px; position: absolute; margin-left: 24px; padding-left: 34px; box-sizing: border-box;font-size: 14px; line-height: 24px;color: #fff;}
+				.footer_contacts_timing span {color: #ad781e;}
+				.footer_contacts_inst {height: 61px;top: 454px; width: 155px;margin-left: 96px; position: absolute; padding-left: 29px; box-sizing: border-box;font-size: 14px; text-decoration: underline; color: #fff; padding-top: 23px; transition: 0.3s;}
+				.footer_contacts_inst a {color: #fff;}
+				.footer_contacts_inst a:hover {color: #cb850c;}
+	.footer_menu {width: 100%; height: 141px; background:#2b2b2b; }			
+		.footer_menu_fix {width: 1140px; height: 142px; margin: 0px auto;}	
+			.footer_menu_emblem {width:238px; height: 118px; margin-left: 98px; position: absolute; margin-top: 15px; padding-left: 98px; box-sizing: border-box; font-size: 14px; line-height: 24px; color: #fff; text-transform: uppercase; padding-top: 37px;}	
+				.footer_menu_emblem span {color: #cb850c;}	
+			.footer_menu_menu {height: 142px; width: 90px; margin-left: 420px; position: absolute; font-size: 14px; padding-top: 29px; box-sizing: border-box;transition: 0.3s;}
+				.footer_menu_menu a {color: #fff;}
+				.footer_menu_menu a:hover {color:#cb850c;}
+				.consul_foot {width: 186px; height: 25px; margin-top: 59px; position: absolute; margin-left: 582px; background: url("images/footer_menu_button.png") no-repeat center; border: none; cursor: pointer; color: #fff; transition: 0.3s; font-size: 14px; text-decoration: none; text-align: center;}
+				.consul_foot:hover {color: #cb850c;}
+			.footer_menu_source {font-size: 12px; color: #fff; height: 79px; width: 200px; margin-top: 26px; position: absolute; margin-left: 863px; background: url("images/footer_menu_source.png") no-repeat left 45px bottom; line-height: 30px; padding-top: 5px; box-sizing: border-box;}
+				.footer_menu_source a {color:#cb850c; text-transform: uppercase; text-decoration: underline;transition: 0.3s;}
+				.footer_menu_source a:hover {color: #7f7f7f;}
+			.footer_copyrights {height: 50px; width: 100%; background: url("images/footer_copyrights.png") no-repeat center/cover;}
+				.footer_copyrights_fix {width: 1140px; height: 50px; color: #fff; margin: 0px auto; text-align: center; font-size: 14px; line-height: 30px;padding-top: 8px; box-sizing: border-box;}
+
+
+/*CSS for Modal window*/
+
+/* стилизация содержимого страницы */
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+} 
+  
+/* свойства модального окна по умолчанию */
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    width: 541px;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+    width: 541px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    height: 150px;
+    background: #2b2b2b;
+    width: 541px;
+    box-sizing: border-box;
+    height: 188px;
+
+}
+
+/*CSS for Modal form*/
+
+
+	.modal-body input[type="text"] { width: 166px; height: 36px; border-top: 3px solid #ababab; border-left: 2px solid #ababab; box-sizing: border-box; position: absolute; margin-top: 29px;color: #a4a4a4; text-indent: 10px;font-size: 14px; }					
+	.modal-body input[type="tel"] {margin-left: 196px; width: 166px; height: 36px; border-top: 3px solid #ababab; border-left: 2px solid #ababab; box-sizing: border-box;  position: absolute; margin-top: 29px; color: #a4a4a4;text-indent: 10px;font-size: 14px;}					
+	.modal-body input[type="submit"] {margin-left: 800px; background: url("images/footer_tittle_button.png") no-repeat left center; width: 126px; height: 37px; border: none;  transition: 0.3s; cursor: pointer;position: absolute;margin-left: 387px; top: 50px; font-size: 14px; color: #fff;}	
+	.modal-body input:nth-child(3):hover {color: #cb850c;}
+
+
+
+
+
+
+/*CSS for Page*/
+
+.page {width: 1140px; margin: 0px auto; padding: 0px 15px;}
+.page_text {margin-bottom: 30px;}		
+
+/*CSS for Category*/
+
+.category {width: 1140px; margin: 0px auto; padding: 0px 15px; overflow: hidden;  margin-bottom: 40px;}		
+.cat_list {width:  222px; height: 281px; margin-bottom: 35px; float: left; margin-right: 30px; margin-top: 10px;}
+.cat_photo {height: 155px; width: 228px;}
+.cat_title {font-size: 14px; color: #2b2b2b; font-weight: 700; line-height: 17px;}
+.cat_text {color: #636363; line-height: 20px;font-size: 13px;}
+.cat_list a {font-size: 13px; line-height: 20px; color: #cb850c;}
+.cat_list a:hover{color: #2b2b2b;}
+
+/*CSS for Uslugi*/
+.cat {width: 1140px; height: 141px; overflow: hidden;}			
+.header_menu_bottom ul {list-style-type: none;}
+.cat_uslugi_list {float: left; color: #2b2b2b;}
+.header_menu_bottom a { color: #2b2b2b; transition: 0.3s;}
+.header_menu_bottom a:hover { color: #cb850c;}
+.cat_uslugi_list {width: 139px; height: 100px;margin-top: 19px;  font-size: 13px; text-align: center; padding-top: 71px;margin-right: 23px; }
+
+
+
+/*CSS for CF7*/
+
+.wpcf7-response-output { position: absolute; left: 6px; width: 290px;top: 66px; color: #cb850c;}
+.wpcf7-not-valid-tip {position: absolute;width: 287px; }
+.wpcf7-not-valid-tip span{margin-left: 200px;}
+.footer_tittle_form {display: flex;align-items: baseline;}
+
+/*CSS for single*/
+.cat_single_photo {height: 155px; width: 228px;}
